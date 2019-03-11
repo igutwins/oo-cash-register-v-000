@@ -9,6 +9,7 @@ class CashRegister
     @total += price*quantity
     @items << quantity.times.do title
   end
+  end
   def apply_discount
     if @discount == 0
       "There is no discount to apply."
